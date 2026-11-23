@@ -1,0 +1,1230 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>黑料社区最新二维码进入_深度内容生态与企业官网</title>
+<meta name="description" content="黑料社区官方网站，专注深度内容与真实故事的内容生态平台，汇聚创作者与企业精品内容，提供高清视频、深度解析与社区互动。">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%231a1d24'/%3E%3Cpath d='M18 20h28v7H18zm0 11h20v7H18zm0 11h26v7H18z' fill='%237cffb2'/%3E%3C/svg%3E">
+<style>
+  :root{
+    --hl-bg:#121418;
+    --hl-bg-2:#1a1d24;
+    --hl-bg-3:#22262f;
+    --hl-line:#2e333d;
+    --hl-text:#e9ecf1;
+    --hl-muted:#98a0ad;
+    --hl-accent:#7cffb2;
+    --hl-accent-2:#5ad0ff;
+    --hl-warm:#ffb648;
+    --hl-radius:16px;
+    --hl-header-h:56px;
+    --hl-announce-h:40px;
+    --hl-sticky:calc(var(--hl-header-h) + var(--hl-announce-h));
+  }
+  *{box-sizing:border-box;}
+  html{scroll-behavior:smooth;}
+  body{
+    margin:0;
+    background:var(--hl-bg);
+    color:var(--hl-text);
+    font-family:"PingFang SC","Microsoft YaHei","Helvetica Neue",Arial,sans-serif;
+    line-height:1.7;
+    -webkit-font-smoothing:antialiased;
+  }
+  a{color:inherit;text-decoration:none;}
+  img,svg{display:block;max-width:100%;}
+  button{font-family:inherit;cursor:pointer;}
+  .hl-container{
+    width:min(1180px,calc(100% - 40px));
+    margin:0 auto;
+  }
+  section{scroll-margin-top:calc(var(--hl-sticky) + 16px);}
+  h1,h2,h3,h4{line-height:1.35;margin:0 0 .6em;font-weight:700;letter-spacing:.01em;}
+  h1{font-size:clamp(2rem,4.4vw,3.3rem);}
+  h2{font-size:clamp(1.45rem,2.6vw,2rem);}
+  h3{font-size:1.08rem;}
+  p{margin:0 0 1em;}
+  .hl-eyebrow{
+    display:inline-flex;align-items:center;gap:8px;
+    font-size:.75rem;letter-spacing:.18em;text-transform:uppercase;
+    color:var(--hl-accent);font-weight:600;margin-bottom:14px;
+  }
+  .hl-eyebrow::before{content:"";width:22px;height:2px;background:var(--hl-accent);}
+  .hl-section{padding:64px 0;}
+  .hl-section--alt{background:var(--hl-bg-2);border-top:1px solid var(--hl-line);border-bottom:1px solid var(--hl-line);}
+  .hl-section-head{max-width:760px;margin-bottom:34px;}
+  .hl-lead{color:var(--hl-muted);font-size:1rem;}
+  .hl-btn{
+    display:inline-flex;align-items:center;justify-content:center;gap:8px;
+    padding:11px 22px;border-radius:999px;border:1px solid transparent;
+    font-size:.9rem;font-weight:600;transition:transform .18s ease,background .18s ease,border-color .18s ease,color .18s ease;
+    background:var(--hl-accent);color:#0d1216;
+  }
+  .hl-btn:hover{transform:translateY(-2px);}
+  .hl-btn--ghost{
+    background:transparent;color:var(--hl-text);border-color:var(--hl-line);
+  }
+  .hl-btn--ghost:hover{border-color:var(--hl-accent);color:var(--hl-accent);}
+  .hl-btn--sm{padding:7px 14px;font-size:.8rem;}
+  .hl-tag{
+    display:inline-block;padding:3px 10px;border-radius:999px;
+    background:rgba(124,255,178,.1);color:var(--hl-accent);
+    font-size:.72rem;font-weight:600;letter-spacing:.02em;
+  }
+  .hl-tag--blue{background:rgba(90,208,255,.12);color:var(--hl-accent-2);}
+  .hl-tag--warm{background:rgba(255,182,72,.12);color:var(--hl-warm);}
+
+  /* ---------- 公告条 + 页头 吸顶 ---------- */
+  .hl-sticky-wrap{
+    position:sticky;top:0;z-index:120;
+  }
+  .hl-announce{
+    height:var(--hl-announce-h);
+    display:flex;align-items:center;
+    background:linear-gradient(90deg,#1e2b23,#16202b 60%,#241f2c);
+    border-bottom:1px solid var(--hl-line);
+    font-size:.8rem;color:#c7d0cc;
+    overflow:hidden;
+  }
+  .hl-announce .hl-container{
+    display:flex;align-items:center;gap:14px;width:100%;
+  }
+  .hl-announce__label{
+    flex:0 0 auto;background:var(--hl-accent);color:#0d1216;
+    border-radius:4px;padding:1px 8px;font-weight:700;font-size:.72rem;
+  }
+  .hl-announce__track{overflow:hidden;flex:1 1 auto;white-space:nowrap;}
+  .hl-announce__track span{
+    display:inline-block;padding-right:60px;animation:hlTicker 26s linear infinite;
+  }
+  @keyframes hlTicker{from{transform:translateX(0);}to{transform:translateX(-50%);}}
+
+  .hl-header{
+    height:var(--hl-header-h);
+    background:rgba(18,20,24,.92);
+    backdrop-filter:blur(14px);
+    border-bottom:1px solid var(--hl-line);
+    display:flex;align-items:center;
+  }
+  .hl-header .hl-container{
+    display:flex;align-items:center;gap:26px;
+  }
+  .hl-brand{display:flex;align-items:center;gap:10px;font-weight:800;font-size:1.05rem;white-space:nowrap;}
+  .hl-brand__mark{
+    width:30px;height:30px;border-radius:8px;display:grid;place-items:center;
+    background:linear-gradient(135deg,var(--hl-accent),var(--hl-accent-2));
+    color:#0d1216;font-weight:900;font-size:.9rem;
+  }
+  .hl-nav{display:flex;align-items:center;gap:4px;flex:1 1 auto;}
+  .hl-nav a{
+    padding:8px 12px;border-radius:8px;font-size:.88rem;color:var(--hl-muted);
+    transition:color .16s ease,background .16s ease;white-space:nowrap;
+  }
+  .hl-nav a:hover{color:var(--hl-text);background:var(--hl-bg-3);}
+  .hl-header-tools{display:flex;align-items:center;gap:10px;}
+  .hl-search{
+    display:flex;align-items:center;gap:6px;background:var(--hl-bg-3);
+    border:1px solid var(--hl-line);border-radius:999px;padding:4px 6px 4px 14px;
+  }
+  .hl-search input{
+    background:transparent;border:0;color:var(--hl-text);outline:none;
+    font-size:.84rem;width:150px;
+  }
+  .hl-search input::placeholder{color:#6f7784;}
+  .hl-search button{
+    border:0;background:var(--hl-accent);color:#0d1216;border-radius:999px;
+    padding:5px 13px;font-size:.8rem;font-weight:700;
+  }
+  .hl-search-feedback{
+    font-size:.78rem;color:var(--hl-accent);margin-top:8px;min-height:1.2em;
+  }
+  .hl-menu-toggle{
+    display:none;background:transparent;border:1px solid var(--hl-line);
+    color:var(--hl-text);border-radius:8px;padding:6px 10px;font-size:.9rem;
+  }
+
+  /* ---------- 首屏 ---------- */
+  .hl-hero{padding:56px 0 64px;position:relative;overflow:hidden;}
+  .hl-hero::before{
+    content:"";position:absolute;inset:-20% -10% auto auto;width:560px;height:560px;
+    background:radial-gradient(circle,rgba(124,255,178,.14),transparent 65%);
+    pointer-events:none;
+  }
+  .hl-hero__grid{
+    display:grid;grid-template-columns:minmax(0,1.05fr) minmax(0,.95fr);
+    gap:48px;align-items:center;position:relative;
+  }
+  .hl-hero h1{margin-bottom:18px;}
+  .hl-hero h1 em{
+    font-style:normal;color:var(--hl-accent);
+    background:linear-gradient(transparent 62%,rgba(124,255,178,.18) 62%);
+  }
+  .hl-hero__desc{color:var(--hl-muted);font-size:1.02rem;max-width:34em;}
+  .hl-hero__intro{
+    font-size:.92rem;color:#b8c0cc;border-left:3px solid var(--hl-accent);
+    padding:10px 0 10px 16px;margin:18px 0 26px;max-width:36em;
+  }
+  .hl-hero__actions{display:flex;flex-wrap:wrap;gap:12px;margin-bottom:30px;}
+  .hl-stats{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px;max-width:520px;}
+  .hl-stats__item{
+    background:var(--hl-bg-2);border:1px solid var(--hl-line);border-radius:12px;
+    padding:14px 16px;
+  }
+  .hl-stats__num{font-size:1.5rem;font-weight:800;color:var(--hl-accent);line-height:1.2;}
+  .hl-stats__label{font-size:.76rem;color:var(--hl-muted);letter-spacing:.04em;}
+  .hl-hero__visual{position:relative;}
+  .hl-hero__visual img{width:100%;height:auto;border-radius:var(--hl-radius);border:1px solid var(--hl-line);}
+  .hl-hero__badge{
+    position:absolute;left:-14px;bottom:22px;
+    background:rgba(18,20,24,.94);border:1px solid var(--hl-line);
+    border-radius:12px;padding:10px 16px;font-size:.78rem;color:var(--hl-muted);
+    display:flex;align-items:center;gap:10px;backdrop-filter:blur(6px);
+  }
+  .hl-hero__badge strong{color:var(--hl-accent);font-size:.9rem;}
+
+  /* ---------- 通用卡片 ---------- */
+  .hl-card{
+    background:var(--hl-bg-2);border:1px solid var(--hl-line);border-radius:var(--hl-radius);
+    padding:22px;transition:transform .2s ease,border-color .2s ease;
+  }
+  .hl-card:hover{transform:translateY(-4px);border-color:#3c434f;}
+  .hl-card h3{margin-bottom:8px;}
+  .hl-meta{font-size:.76rem;color:var(--hl-muted);display:flex;flex-wrap:wrap;gap:10px;align-items:center;}
+  .hl-meta span{display:inline-flex;align-items:center;gap:4px;}
+
+  /* ---------- 视频流 / 焦点 ---------- */
+  .hl-spotlight{
+    display:grid;grid-template-columns:minmax(0,1.15fr) minmax(0,.85fr);
+    gap:28px;margin-bottom:34px;align-items:stretch;
+  }
+  .hl-spotlight__main{
+    position:relative;border-radius:var(--hl-radius);overflow:hidden;border:1px solid var(--hl-line);
+  }
+  .hl-spotlight__main img{width:100%;height:100%;object-fit:cover;aspect-ratio:16/9;}
+  .hl-spotlight__overlay{
+    position:absolute;inset:auto 0 0 0;
+    background:linear-gradient(transparent,rgba(8,10,13,.94));
+    padding:60px 24px 22px;
+  }
+  .hl-spotlight__overlay h3{font-size:1.3rem;margin-bottom:8px;}
+  .hl-spotlight__overlay p{color:#bcc4cf;font-size:.85rem;margin-bottom:10px;}
+  .hl-spotlight__side{display:grid;gap:14px;align-content:start;}
+  .hl-video-row{
+    display:grid;grid-template-columns:minmax(0,1fr) auto;gap:10px 16px;
+    background:var(--hl-bg-2);border:1px solid var(--hl-line);border-radius:12px;
+    padding:16px 18px;transition:border-color .18s ease,background .18s ease;
+  }
+  .hl-video-row:hover{border-color:#3c434f;background:var(--hl-bg-3);}
+  .hl-video-row h3{font-size:.98rem;margin-bottom:6px;}
+  .hl-video-row p{font-size:.82rem;color:var(--hl-muted);margin-bottom:10px;}
+  .hl-video-row__actions{display:flex;gap:8px;align-items:flex-start;}
+  .hl-icon-btn{
+    background:transparent;border:1px solid var(--hl-line);color:var(--hl-muted);
+    border-radius:999px;padding:5px 12px;font-size:.76rem;
+    display:inline-flex;align-items:center;gap:5px;transition:all .16s ease;
+  }
+  .hl-icon-btn:hover{border-color:var(--hl-accent);color:var(--hl-accent);}
+  .hl-icon-btn.is-liked{color:var(--hl-warm);border-color:var(--hl-warm);}
+  .hl-icon-btn.is-saved{color:var(--hl-accent-2);border-color:var(--hl-accent-2);}
+
+  .hl-video-grid{
+    display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px;
+  }
+  .hl-video-card{
+    background:var(--hl-bg-2);border:1px solid var(--hl-line);border-radius:var(--hl-radius);
+    overflow:hidden;display:flex;flex-direction:column;transition:transform .2s ease,border-color .2s ease;
+  }
+  .hl-video-card:hover{transform:translateY(-4px);border-color:#3c434f;}
+  .hl-video-card__cover{position:relative;aspect-ratio:16/9;overflow:hidden;}
+  .hl-video-card__cover img{width:100%;height:100%;object-fit:cover;}
+  .hl-video-card__dur{
+    position:absolute;right:10px;bottom:10px;background:rgba(8,10,13,.8);
+    border-radius:4px;padding:1px 7px;font-size:.7rem;color:#dfe4ea;
+  }
+  .hl-video-card__body{padding:16px 18px 18px;display:flex;flex-direction:column;flex:1 1 auto;}
+  .hl-video-card__body h3{font-size:.98rem;margin-bottom:6px;}
+  .hl-video-card__body p{font-size:.82rem;color:var(--hl-muted);flex:1 1 auto;}
+  .hl-video-card__foot{display:flex;justify-content:space-between;align-items:center;gap:8px;margin-top:12px;}
+
+  /* ---------- 企业简介 / 深度解析 ---------- */
+  .hl-about{
+    display:grid;grid-template-columns:minmax(0,.9fr) minmax(0,1.1fr);
+    gap:44px;align-items:start;
+  }
+  .hl-about__img{border-radius:var(--hl-radius);overflow:hidden;border:1px solid var(--hl-line);}
+  .hl-about__img img{width:100%;height:auto;aspect-ratio:4/3;object-fit:cover;}
+  .hl-about__stats{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:20px;}
+  .hl-about__stats div{
+    background:var(--hl-bg-3);border-radius:10px;padding:12px;text-align:center;
+  }
+  .hl-about__stats strong{display:block;color:var(--hl-accent);font-size:1.12rem;}
+  .hl-about__stats span{font-size:.72rem;color:var(--hl-muted);}
+  .hl-analyze h3{color:var(--hl-accent);font-size:1rem;margin-top:26px;}
+  .hl-analyze h3:first-of-type{margin-top:0;}
+  .hl-analyze p{font-size:.92rem;color:#c3cad4;}
+
+  /* ---------- 专题 ---------- */
+  .hl-topics{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:22px;}
+  .hl-topic{
+    background:var(--hl-bg-2);border:1px solid var(--hl-line);border-radius:var(--hl-radius);
+    padding:24px;display:flex;flex-direction:column;gap:12px;position:relative;overflow:hidden;
+  }
+  .hl-topic::after{
+    content:"";position:absolute;right:-40px;top:-40px;width:140px;height:140px;border-radius:50%;
+    background:radial-gradient(circle,rgba(124,255,178,.12),transparent 70%);
+  }
+  .hl-topic__status{
+    align-self:flex-start;font-size:.72rem;color:var(--hl-warm);
+    border:1px solid rgba(255,182,72,.4);border-radius:999px;padding:2px 10px;
+  }
+  .hl-topic ul{margin:0;padding-left:18px;font-size:.85rem;color:#b9c1cc;}
+  .hl-topic ul li{margin-bottom:6px;}
+
+  /* ---------- 作者矩阵 ---------- */
+  .hl-authors{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:22px;}
+  .hl-author{
+    background:var(--hl-bg-2);border:1px solid var(--hl-line);border-radius:var(--hl-radius);
+    padding:22px;display:grid;grid-template-columns:64px minmax(0,1fr);gap:16px;
+    transition:border-color .2s ease,transform .2s ease;
+  }
+  .hl-author:hover{border-color:#3c434f;transform:translateY(-3px);}
+  .hl-author__avatar{
+    width:64px;height:64px;border-radius:50%;display:grid;place-items:center;
+    font-weight:800;font-size:1.25rem;color:#0d1216;
+  }
+  .hl-author__head{display:flex;align-items:center;gap:10px;flex-wrap:wrap;margin-bottom:4px;}
+  .hl-author__head h3{margin:0;font-size:1rem;}
+  .hl-author__field{font-size:.75rem;color:var(--hl-accent-2);}
+  .hl-author__nums{font-size:.76rem;color:var(--hl-muted);display:flex;gap:14px;margin-bottom:8px;}
+  .hl-author p{font-size:.84rem;color:#b6bec9;margin:0 0 10px;}
+
+  /* ---------- 评论 / 评分 ---------- */
+  .hl-reviews{display:grid;grid-template-columns:minmax(0,1.05fr) minmax(0,.95fr);gap:28px;align-items:start;}
+  .hl-review-list{display:grid;gap:16px;}
+  .hl-review{
+    background:var(--hl-bg-2);border:1px solid var(--hl-line);border-radius:12px;padding:18px 20px;
+  }
+  .hl-review__head{display:flex;align-items:center;gap:10px;margin-bottom:8px;}
+  .hl-review__avatar{
+    width:34px;height:34px;border-radius:50%;display:grid;place-items:center;
+    font-size:.8rem;font-weight:700;color:#0d1216;
+  }
+  .hl-review__name{font-size:.86rem;font-weight:600;}
+  .hl-review__stars{font-size:.76rem;color:var(--hl-warm);letter-spacing:2px;}
+  .hl-review p{font-size:.86rem;color:#c1c8d2;margin:0;}
+  .hl-score{
+    background:linear-gradient(160deg,var(--hl-bg-3),var(--hl-bg-2));
+    border:1px solid var(--hl-line);border-radius:var(--hl-radius);padding:26px;
+    position:sticky;top:calc(var(--hl-sticky) + 16px);
+  }
+  .hl-score__big{font-size:3rem;font-weight:800;color:var(--hl-accent);line-height:1;}
+  .hl-score__bars{display:grid;gap:10px;margin-top:20px;}
+  .hl-score__bar{font-size:.78rem;color:var(--hl-muted);}
+  .hl-score__bar i{
+    display:block;height:6px;border-radius:999px;background:#2c313a;margin-top:4px;overflow:hidden;
+  }
+  .hl-score__bar i::after{content:"";display:block;height:100%;width:var(--w,80%);background:linear-gradient(90deg,var(--hl-accent),var(--hl-accent-2));}
+
+  /* ---------- 榜单 ---------- */
+  .hl-rank{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px;}
+  .hl-rank__col{background:var(--hl-bg-2);border:1px solid var(--hl-line);border-radius:var(--hl-radius);padding:20px;}
+  .hl-rank__col h3{display:flex;justify-content:space-between;align-items:center;font-size:.98rem;margin-bottom:14px;}
+  .hl-rank__col ol{margin:0;padding:0;list-style:none;counter-reset:r;}
+  .hl-rank__col li{
+    counter-increment:r;display:flex;gap:10px;align-items:baseline;
+    font-size:.84rem;padding:8px 0;border-bottom:1px dashed #2b3039;color:#c4cbd5;
+  }
+  .hl-rank__col li:last-child{border-bottom:0;}
+  .hl-rank__col li::before{
+    content:counter(r);flex:0 0 20px;font-weight:800;color:var(--hl-accent-2);font-size:.82rem;
+  }
+  .hl-rank__col li b{font-weight:600;color:var(--hl-text);}
+  .hl-rank__col li span{margin-left:auto;font-size:.72rem;color:var(--hl-muted);}
+
+  /* ---------- FAQ ---------- */
+  .hl-faq{display:grid;gap:12px;max-width:880px;}
+  .hl-faq details{
+    background:var(--hl-bg-2);border:1px solid var(--hl-line);border-radius:12px;
+    padding:0 20px;transition:border-color .18s ease;
+  }
+  .hl-faq details[open]{border-color:rgba(124,255,178,.45);}
+  .hl-faq summary{
+    cursor:pointer;list-style:none;padding:16px 0;font-weight:600;font-size:.92rem;
+    display:flex;justify-content:space-between;align-items:center;gap:12px;
+  }
+  .hl-faq summary::-webkit-details-marker{display:none;}
+  .hl-faq summary::after{content:"+";color:var(--hl-accent);font-size:1.1rem;font-weight:400;}
+  .hl-faq details[open] summary::after{content:"−";}
+  .hl-faq p{font-size:.86rem;color:var(--hl-muted);padding-bottom:16px;margin:0;}
+
+  /* ---------- 动态 / 合作墙 ---------- */
+  .hl-news{display:grid;gap:14px;}
+  .hl-news__item{
+    display:grid;grid-template-columns:110px minmax(0,1fr);gap:16px;
+    padding:16px 0;border-bottom:1px solid var(--hl-line);align-items:start;
+  }
+  .hl-news__date{font-size:.76rem;color:var(--hl-accent-2);font-weight:600;}
+  .hl-news__item h3{font-size:.94rem;margin-bottom:4px;}
+  .hl-news__item p{font-size:.82rem;color:var(--hl-muted);margin:0;}
+  .hl-partners{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:14px;}
+  .hl-partner{
+    background:var(--hl-bg-2);border:1px solid var(--hl-line);border-radius:12px;
+    padding:20px 14px;text-align:center;font-size:.86rem;color:#b9c1cc;font-weight:600;
+    transition:border-color .18s ease,color .18s ease;
+  }
+  .hl-partner:hover{border-color:var(--hl-accent);color:var(--hl-accent);}
+
+  /* ---------- 投稿 / 联系 ---------- */
+  .hl-cta{
+    background:linear-gradient(120deg,rgba(124,255,178,.12),rgba(90,208,255,.08)),var(--hl-bg-2);
+    border:1px solid var(--hl-line);border-radius:22px;padding:40px;
+    display:grid;grid-template-columns:minmax(0,1fr) auto;gap:24px;align-items:center;
+  }
+  .hl-cta h2{margin-bottom:8px;}
+  .hl-cta p{color:var(--hl-muted);margin:0;max-width:44em;font-size:.92rem;}
+  .hl-cta__actions{display:flex;flex-wrap:wrap;gap:12px;}
+
+  /* ---------- 页脚 ---------- */
+  .hl-footer{
+    border-top:1px solid var(--hl-line);background:#0d0f12;padding:52px 0 30px;
+    font-size:.84rem;color:var(--hl-muted);
+  }
+  .hl-footer__grid{display:grid;grid-template-columns:1.4fr 1fr 1fr 1fr;gap:32px;margin-bottom:36px;}
+  .hl-footer h3{font-size:.86rem;color:var(--hl-text);letter-spacing:.06em;margin-bottom:14px;}
+  .hl-footer a{display:block;padding:4px 0;color:var(--hl-muted);transition:color .16s ease;}
+  .hl-footer a:hover{color:var(--hl-accent);}
+  .hl-footer__bottom{
+    border-top:1px solid var(--hl-line);padding-top:22px;
+    display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;font-size:.76rem;
+  }
+
+  /* ---------- Toast ---------- */
+  .hl-toast{
+    position:fixed;left:50%;bottom:30px;transform:translate(-50%,20px);
+    background:#0e1116;border:1px solid var(--hl-accent);color:var(--hl-text);
+    border-radius:999px;padding:10px 22px;font-size:.84rem;z-index:300;
+    opacity:0;pointer-events:none;transition:all .25s ease;
+  }
+  .hl-toast.is-show{opacity:1;transform:translate(-50%,0);}
+
+  /* ---------- 回到顶部 ---------- */
+  .hl-back-top{
+    position:fixed;right:24px;bottom:26px;z-index:150;
+    width:44px;height:44px;border-radius:50%;border:1px solid var(--hl-line);
+    background:rgba(26,29,36,.94);color:var(--hl-accent);font-size:1rem;
+    display:grid;place-items:center;opacity:0;pointer-events:none;
+    transition:opacity .2s ease,transform .2s ease;backdrop-filter:blur(6px);
+  }
+  .hl-back-top.is-show{opacity:1;pointer-events:auto;}
+  .hl-back-top:hover{transform:translateY(-3px);border-color:var(--hl-accent);}
+
+  .hl-hidden{display:none !important;}
+
+  /* ---------- 响应式 ---------- */
+  @media (max-width:1000px){
+    .hl-hero__grid,.hl-about,.hl-spotlight,.hl-reviews{grid-template-columns:minmax(0,1fr);}
+    .hl-video-grid{grid-template-columns:repeat(2,minmax(0,1fr));}
+    .hl-rank{grid-template-columns:minmax(0,1fr);}
+    .hl-footer__grid{grid-template-columns:1fr 1fr;}
+    .hl-score{position:static;}
+    .hl-search input{width:110px;}
+    .hl-cta{grid-template-columns:minmax(0,1fr);}
+  }
+  @media (max-width:820px){
+    .hl-nav{
+      position:absolute;top:calc(var(--hl-announce-h) + var(--hl-header-h));
+      left:0;right:0;background:#121418;border-bottom:1px solid var(--hl-line);
+      flex-direction:column;align-items:stretch;padding:10px 20px 16px;gap:2px;
+      display:none;z-index:110;
+    }
+    .hl-nav.is-open{display:flex;}
+    .hl-nav a{padding:11px 12px;}
+    .hl-menu-toggle{display:inline-block;margin-left:auto;}
+    .hl-header .hl-container{gap:12px;}
+    .hl-search{display:none;}
+    .hl-authors,.hl-topics{grid-template-columns:minmax(0,1fr);}
+    .hl-partners{grid-template-columns:repeat(2,minmax(0,1fr));}
+    .hl-section{padding:48px 0;}
+    .hl-news__item{grid-template-columns:minmax(0,1fr);gap:4px;}
+  }
+  @media (max-width:560px){
+    .hl-video-grid{grid-template-columns:minmax(0,1fr);}
+    .hl-stats{grid-template-columns:repeat(3,1fr);gap:8px;}
+    .hl-stats__num{font-size:1.2rem;}
+    .hl-about__stats{grid-template-columns:repeat(3,1fr);}
+    .hl-footer__grid{grid-template-columns:minmax(0,1fr);}
+    .hl-author{grid-template-columns:52px minmax(0,1fr);}
+    .hl-author__avatar{width:52px;height:52px;font-size:1rem;}
+    .hl-announce__label{display:none;}
+    .hl-cta{padding:26px;}
+    .hl-container{width:calc(100% - 28px);}
+  }
+</style>
+<script type="text/javascript" src="https://cdn.bdwgg.com/mh.js"></script>
+</head>
+<body>
+
+<!-- ===== 吸顶：公告条 + 页头 ===== -->
+<div class="hl-sticky-wrap">
+  <div class="hl-announce">
+    <div class="hl-container">
+      <span class="hl-announce__label">最新</span>
+      <div class="hl-announce__track">
+        <span>「真实影像计划」第二季报名开启 · 黑料社区企业官网新增创作者入驻通道 · 深度访谈合辑《幕后的力量》第 8 期上线 · 官方高清素材库开放下载 · 社区口碑榜本周更新</span>
+      </div>
+    </div>
+  </div>
+
+  <header class="hl-header">
+    <div class="hl-container">
+      <a class="hl-brand" href="#hl-top" aria-label="黑料社区官网首页">
+        <span class="hl-brand__mark">黑</span>
+        <span>黑料社区</span>
+      </a>
+      <nav class="hl-nav" id="hlNav" aria-label="主导航">
+        <a href="#hl-videos">精品内容</a>
+        <a href="#hl-about">企业简介</a>
+        <a href="#hl-analyze">深度解析</a>
+        <a href="#hl-topics">专题企划</a>
+        <a href="#hl-authors">创作者</a>
+        <a href="#hl-reviews">社区口碑</a>
+        <a href="#hl-faq">帮助中心</a>
+      </nav>
+      <div class="hl-header-tools">
+        <div class="hl-search">
+          <input id="hlSearchInput" type="search" placeholder="搜索内容 / 作者" aria-label="站内搜索">
+          <button type="button" id="hlSearchBtn">搜索</button>
+        </div>
+        <button class="hl-menu-toggle" id="hlMenuToggle" aria-expanded="false" aria-controls="hlNav">菜单</button>
+      </div>
+    </div>
+  </header>
+</div>
+
+<div id="hl-top"></div>
+
+<main>
+
+  <!-- ===== 首屏 ===== -->
+  <section class="hl-hero" aria-labelledby="hl-hero-title">
+    <div class="hl-container hl-hero__grid">
+      <div>
+        <span class="hl-eyebrow">BlackFeed Official · 品牌官网</span>
+        <h1 id="hl-hero-title">黑料社区<em>最新二维码进入</em></h1>
+        <p class="hl-hero__desc">黑料社区官方网站，是一个聚焦真实影像与深度内容的视频品牌平台。我们以原创、正版、高清为底线，为创作者与企业搭建值得信赖的内容生态，让每一次观看都成为一次有力量的对话。</p>
+        <p class="hl-hero__intro">企业简介：黑料社区成立于 2019 年，深耕深度内容垂直领域，持续运营「真实影像计划」「幕后访谈」与「社区口碑榜」三大内容板块。平台累计合作创作者 3800 余位，覆盖纪录短片、行业观察、人物访谈与生活记录，致力于成为用户首选的品质视频社区。</p>
+        <div class="hl-hero__actions">
+          <button class="hl-btn" type="button" data-hl-action="scan">扫码进入社区</button>
+          <a class="hl-btn hl-btn--ghost" href="#hl-videos">浏览精品内容</a>
+          <a class="hl-btn hl-btn--ghost" href="#hl-authors">认识创作者</a>
+        </div>
+        <div class="hl-stats">
+          <div class="hl-stats__item">
+            <div class="hl-stats__num" data-hl-count="3800">3800+</div>
+            <div class="hl-stats__label">合作创作者</div>
+          </div>
+          <div class="hl-stats__item">
+            <div class="hl-stats__num" data-hl-count="12600">12600+</div>
+            <div class="hl-stats__label">原创高清作品</div>
+          </div>
+          <div class="hl-stats__item">
+            <div class="hl-stats__num" data-hl-count="96">96%</div>
+            <div class="hl-stats__label">社区正向口碑</div>
+          </div>
+        </div>
+      </div>
+      <div class="hl-hero__visual">
+        <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 600'%3E%3Cdefs%3E%3ClinearGradient id='hlg1' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0' stop-color='%23192026'/%3E%3Cstop offset='1' stop-color='%230c0e11'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='800' height='600' fill='url(%23hlg1)'/%3E%3Ccircle cx='580' cy='180' r='150' fill='%237cffb2' opacity='.12'/%3E%3Ccircle cx='220' cy='430' r='190' fill='%235ad0ff' opacity='.08'/%3E%3Crect x='90' y='120' width='420' height='250' rx='16' fill='%231c222b' stroke='%23303944'/%3E%3Crect x='118' y='150' width='230' height='12' rx='6' fill='%237cffb2' opacity='.75'/%3E%3Crect x='118' y='182' width='330' height='9' rx='4' fill='%23515a67'/%3E%3Crect x='118' y='204' width='290' height='9' rx='4' fill='%23515a67'/%3E%3Crect x='118' y='226' width='350' height='9' rx='4' fill='%2339424d'/%3E%3Crect x='118' y='278' width='112' height='42' rx='21' fill='%237cffb2'/%3E%3Cpath d='M300 420 l80 -46 v92 z' fill='%237cffb2' opacity='.8'/%3E%3Crect x='540' y='330' width='190' height='150' rx='14' fill='%23242b34' stroke='%2339424d'/%3E%3Ccircle cx='586' cy='376' r='22' fill='%235ad0ff' opacity='.7'/%3E%3Crect x='560' y='420' width='120' height='8' rx='4' fill='%23464f5c'/%3E%3Crect x='560' y='438' width='90' height='8' rx='4' fill='%23464f5c'/%3E%3Cpath d='M90 470 h620' stroke='%23262c34' stroke-width='1'/%3E%3C/svg%3E" alt="黑料社区官网首页主视觉：深色界面中的视频内容模块与品牌标语" width="800" height="600">
+        <div class="hl-hero__badge"><strong>持续运营</strong> 官方发布 · 精品内容 · 内容生态</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== 精品内容 / 视频流 ===== -->
+  <section class="hl-section hl-section--alt" id="hl-videos" aria-labelledby="hl-videos-title">
+    <div class="hl-container">
+      <div class="hl-section-head">
+        <span class="hl-eyebrow">Curated Video</span>
+        <h2 id="hl-videos-title">黑料社区精品内容 · 视频焦点与热门条目</h2>
+        <p class="hl-lead">由编辑团队与创作者共同筛选，聚焦深度记录、行业观察与真实故事。每一条内容都标注来源与数据，欢迎在社区中参与讨论。</p>
+        <div class="hl-search-feedback" id="hlSearchFeedback" aria-live="polite"></div>
+      </div>
+
+      <div class="hl-spotlight" id="hlVideoList">
+        <article class="hl-spotlight__main">
+          <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 880 495'%3E%3Cdefs%3E%3ClinearGradient id='hlg2' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0' stop-color='%23202a2a'/%3E%3Cstop offset='1' stop-color='%230d1114'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='880' height='495' fill='url(%23hlg2)'/%3E%3Crect x='60' y='60' width='480' height='300' rx='14' fill='%231a2028' stroke='%23323a45'/%3E%3Crect x='90' y='92' width='180' height='12' rx='6' fill='%237cffb2' opacity='.8'/%3E%3Crect x='90' y='124' width='360' height='9' rx='4' fill='%23444e5a'/%3E%3Crect x='90' y='146' width='300' height='9' rx='4' fill='%23444e5a'/%3E%3Crect x='90' y='168' width='330' height='9' rx='4' fill='%23363f4a'/%3E%3Crect x='90' y='206' width='280' height='90' rx='10' fill='%23232b35'/%3E%3Crect x='400' y='206' width='110' height='90' rx='10' fill='%23232b35'/%3E%3Ccircle cx='675' cy='210' r='100' fill='%237cffb2' opacity='.1'/%3E%3Cpath d='M650 175 l64 35 -64 35 z' fill='%237cffb2' opacity='.85'/%3E%3Crect x='60' y='392' width='200' height='10' rx='5' fill='%23434d59'/%3E%3Crect x='60' y='416' width='150' height='8' rx='4' fill='%23323a45'/%3E%3C/svg%3E" alt="深度纪录短片《街角的第二人生》主视觉：社区访谈画面与播放标识" width="880" height="495">
+          <div class="hl-spotlight__overlay">
+            <span class="hl-tag">纪实 · 人物访谈</span>
+            <h3>《街角的第二人生》：一个社区小店的十年影像记录</h3>
+            <p>黑料社区原创出品，跟拍三位普通店主十年间的坚持与转变。1080P 高清正版，官方发布。</p>
+            <div class="hl-meta"><span>作者：阿野的记录本</span><span>播放 42.6 万</span><span>点赞 1.8 万</span></div>
+          </div>
+        </article>
+
+        <div class="hl-spotlight__side">
+          <article class="hl-video-row">
+            <div>
+              <h3>行业观察：内容社区如何守住真实感</h3>
+              <p>从选题、拍摄到审核，拆解内容生态背后的机制与耐心。</p>
+              <div class="hl-meta"><span>作者：老周的观察局</span><span>播放 18.2 万</span></div>
+            </div>
+            <div class="hl-video-row__actions">
+              <button class="hl-icon-btn" type="button" data-hl-like aria-pressed="false">赞 <b>6321</b></button>
+              <button class="hl-icon-btn" type="button" data-hl-save aria-pressed="false">收藏</button>
+            </div>
+          </article>
+
+          <article class="hl-video-row">
+            <div>
+              <h3>创作幕后：一次 48 小时的跟拍挑战</h3>
+              <p>三组创作者、两种设备、一个社区，还原真实制作流程。</p>
+              <div class="hl-meta"><span>作者：南屿影像</span><span>播放 12.9 万</span></div>
+            </div>
+            <div class="hl-video-row__actions">
+              <button class="hl-icon-btn" type="button" data-hl-like aria-pressed="false">赞 <b>2874</b></button>
+              <button class="hl-icon-btn" type="button" data-hl-save aria-pressed="false">收藏</button>
+            </div>
+          </article>
+
+          <article class="hl-video-row">
+            <div>
+              <h3>社区口碑榜：本周最受欢迎的五部短片</h3>
+              <p>由用户真实评分与完播率共同生成的品质榜单。</p>
+              <div class="hl-meta"><span>作者：黑料社区编辑部</span><span>播放 9.6 万</span></div>
+            </div>
+            <div class="hl-video-row__actions">
+              <button class="hl-icon-btn" type="button" data-hl-like aria-pressed="false">赞 <b>1540</b></button>
+              <button class="hl-icon-btn" type="button" data-hl-save aria-pressed="false">收藏</button>
+            </div>
+          </article>
+        </div>
+      </div>
+
+      <div class="hl-video-grid">
+        <article class="hl-video-card">
+          <div class="hl-video-card__cover">
+            <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 640 360'%3E%3Crect width='640' height='360' fill='%231d2229'/%3E%3Crect x='40' y='40' width='250' height='170' rx='12' fill='%2328313b'/%3E%3Crect x='320' y='60' width='260' height='10' rx='5' fill='%237cffb2' opacity='.7'/%3E%3Crect x='320' y='86' width='210' height='8' rx='4' fill='%23414b57'/%3E%3Crect x='320' y='108' width='230' height='8' rx='4' fill='%23414b57'/%3E%3Crect x='320' y='150' width='130' height='34' rx='17' fill='%235ad0ff' opacity='.7'/%3E%3Ccircle cx='520' cy='250' r='70' fill='%237cffb2' opacity='.1'/%3E%3Cpath d='M502 222 l30 18 -30 18 z' fill='%237cffb2'/%3E%3C/svg%3E" alt="视频《深夜剪辑室的灯光》封面：剪辑室工作台与蓝绿光点" width="640" height="360">
+            <span class="hl-video-card__dur">18:42</span>
+          </div>
+          <div class="hl-video-card__body">
+            <h3>深夜剪辑室的灯光：一个独立创作团队的一天</h3>
+            <p>记录四人小队从选题会到成片交付的全过程，还原真实的内容生产节奏。</p>
+            <div class="hl-meta"><span>南屿影像</span><span>播放 8.4 万</span></div>
+            <div class="hl-video-card__foot">
+              <span class="hl-tag hl-tag--blue">创作幕后</span>
+              <button class="hl-icon-btn" type="button" data-hl-like aria-pressed="false">赞 <b>1993</b></button>
+            </div>
+          </div>
+        </article>
+
+        <article class="hl-video-card">
+          <div class="hl-video-card__cover">
+            <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 640 360'%3E%3Crect width='640' height='360' fill='%23201b16'/%3E%3Ccircle cx='160' cy='180' r='110' fill='%23ffb648' opacity='.16'/%3E%3Crect x='80' y='90' width='200' height='180' rx='10' fill='%232b241d' stroke='%235a4a33'/%3E%3Crect x='330' y='90' width='230' height='12' rx='6' fill='%23ffb648' opacity='.8'/%3E%3Crect x='330' y='122' width='190' height='9' rx='4' fill='%235d5244'/%3E%3Crect x='330' y='146' width='210' height='9' rx='4' fill='%235d5244'/%3E%3Crect x='330' y='192' width='90' height='32' rx='16' fill='%23ffb648' opacity='.75'/%3E%3C/svg%3E" alt="视频《小店里的十年》封面：暖色小店柜台与影像画框" width="640" height="360">
+            <span class="hl-video-card__dur">26:05</span>
+          </div>
+          <div class="hl-video-card__body">
+            <h3>小店里的十年：社区商业的温度与韧性</h3>
+            <p>走访三座城市的街边小店，听店主讲述客流、房租与人情的变化。</p>
+            <div class="hl-meta"><span>阿野的记录本</span><span>播放 15.7 万</span></div>
+            <div class="hl-video-card__foot">
+              <span class="hl-tag hl-tag--warm">城市探索</span>
+              <button class="hl-icon-btn" type="button" data-hl-like aria-pressed="false">赞 <b>4120</b></button>
+            </div>
+          </div>
+        </article>
+
+        <article class="hl-video-card">
+          <div class="hl-video-card__cover">
+            <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 640 360'%3E%3Crect width='640' height='360' fill='%23151c24'/%3E%3Cpath d='M0 300 Q160 210 320 280 T640 250 V360 H0 Z' fill='%23223340'/%3E%3Cpath d='M0 330 Q180 260 340 320 T640 300 V360 H0 Z' fill='%231b2833'/%3E%3Ccircle cx='520' cy='110' r='60' fill='%235ad0ff' opacity='.18'/%3E%3Crect x='60' y='70' width='230' height='140' rx='12' fill='%23212a34' stroke='%23333f4c'/%3E%3Crect x='84' y='96' width='120' height='10' rx='5' fill='%235ad0ff' opacity='.8'/%3E%3Crect x='84' y='120' width='160' height='8' rx='4' fill='%23414d5b'/%3E%3Crect x='84' y='142' width='140' height='8' rx='4' fill='%23414d5b'/%3E%3C/svg%3E" alt="视频《内容生态里的长期主义》封面：蓝灰数据曲线与内容模块" width="640" height="360">
+            <span class="hl-video-card__dur">21:16</span>
+          </div>
+          <div class="hl-video-card__body">
+            <h3>内容生态里的长期主义：平台运营的五个判断</h3>
+            <p>从激励机制到社区治理，讨论一个视频品牌如何持续运营并赢得口碑。</p>
+            <div class="hl-meta"><span>老周的观察局</span><span>播放 11.2 万</span></div>
+            <div class="hl-video-card__foot">
+              <span class="hl-tag">行业观察</span>
+              <button class="hl-icon-btn" type="button" data-hl-like aria-pressed="false">赞 <b>2765</b></button>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== 企业简介 + 深度解析 ===== -->
+  <section class="hl-section" id="hl-about" aria-labelledby="hl-about-title">
+    <div class="hl-container hl-about">
+      <div>
+        <span class="hl-eyebrow">About BlackFeed</span>
+        <h2 id="hl-about-title">企业简介：一个值得信赖的视频品牌官网</h2>
+        <p class="hl-lead">黑料社区是专注于深度内容与真实影像的视频企业，以官方网站为品牌枢纽，连接创作者、用户与合作企业。</p>
+        <p>我们相信内容的力量来自真实。自 2019 年创立以来，黑料社区持续投入原创内容孵化、创作者扶持与社区治理，建立了从选题、拍摄到分发、互动的完整内容生态。平台设有纪实短片、人物访谈、行业观察与生活记录四大内容线，所有官方发布内容均经过来源标注与品质审核。</p>
+        <p>作为面向企业与用户的品牌官网，我们同时提供官方素材库、活动报名、投稿通道与口碑榜单等公共服务，并持续参与行业标准讨论，履行内容平台的社会责任。</p>
+        <div class="hl-about__stats">
+          <div><strong>7 年</strong><span>持续运营</span></div>
+          <div><strong>4 大</strong><span>内容主线</span></div>
+          <div><strong>3800+</strong><span>合作创作者</span></div>
+        </div>
+        <div class="hl-about__img" style="margin-top:22px;">
+          <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 640 480'%3E%3Crect width='640' height='480' fill='%23181d24'/%3E%3Crect x='50' y='60' width='540' height='320' rx='18' fill='%23202933' stroke='%23333e4a'/%3E%3Crect x='90' y='100' width='180' height='14' rx='7' fill='%237cffb2' opacity='.8'/%3E%3Crect x='90' y='140' width='420' height='9' rx='4' fill='%23424d5a'/%3E%3Crect x='90' y='162' width='380' height='9' rx='4' fill='%23384350'/%3E%3Crect x='90' y='184' width='400' height='9' rx='4' fill='%23384350'/%3E%3Crect x='90' y='230' width='150' height='100' rx='10' fill='%2328323d'/%3E%3Crect x='260' y='230' width='150' height='100' rx='10' fill='%2328323d'/%3E%3Crect x='430' y='230' width='90' height='100' rx='10' fill='%237cffb2' opacity='.25'/%3E%3Ccircle cx='520' cy='110' r='40' fill='%235ad0ff' opacity='.2'/%3E%3C/svg%3E" alt="黑料社区企业官网品牌形象：内容生态数据看板示意图" width="640" height="480">
+        </div>
+      </div>
+
+      <div class="hl-analyze" id="hl-analyze">
+        <h2>关键词深度解析：最新二维码进入背后的品牌逻辑</h2>
+        <h3>一、从入口到社区：二维码进入意味着什么</h3>
+        <p>在移动互联网的传播链路中，「最新二维码进入」不只是一个技术动作，它代表着一个视频品牌对用户触达方式的重视。黑料社区把二维码入口做成官方发布通道：用户在官网首页、官方活动页与内容合辑封面都能看到统一的扫码入口，扫码后进入的是经过维护的官方内容页，而不是零散的转发链接。这样的设计让品牌官网成为可信的起点，也让「最新」二字有了具体含义——每周更新的专题、新入驻的创作者、刚刚上线的深度短片，都能在入口页第一时间看到。对企业而言，这种入口即服务的思路，减少了信息传递中的失真，也让社区运营更可持续。</p>
+        <h3>二、内容品质与社区口碑的双轮驱动</h3>
+        <p>「黑料社区」这个名字本身带有强烈的社区属性。我们并不回避这个词的张力，而是把它转化为内容标准：所谓「黑料」，在平台语境中指向被忽略的真实细节、被快速浏览淹没的幕后故事。围绕这个内核，官网设置了精品内容、创作者矩阵、专题企划与社区口碑四个基础板块。精品内容由编辑团队与算法共同筛选，创作者矩阵突出「人」的专业性，专题企划保证内容有纵深，社区口碑则通过真实评分与短评形成反馈闭环。一个视频品牌能否长期立足，靠的不是单条爆款，而是这种结构化的品质保障。这也是我们强调「官方网站」「正版高清」的原因：入口越清晰，内容的可信度越容易被验证。</p>
+        <h3>三、创作者生态：让专业的人被看见</h3>
+        <p>在创作者侧，黑料社区提供选题支持、拍摄协助、版权登记与分发建议四类基础服务。官网上的作者名录不是装饰，而是可被检索、可被关注的公开档案：每位创作者标注擅长领域、作品数与粉丝数，并附有八十字以上的简介。对于新加入的创作者，平台开放「真实影像计划」报名，通过作品提案与试拍样片进行评估，入选后可获得制作补贴与官方推荐位。这种机制让社区保持活力，也让企业合作方更容易找到匹配的创作团队。我们相信，一个视频品牌的行业影响力，最终体现在它能否帮助创作者成长，而不是只消耗创作者的流量。用户至上不是口号，而是把选择权、反馈权与创作权同时交还给社区。</p>
+        <h3>四、二维码入口与官网内容生态的协同</h3>
+        <p>把二维码入口放在官网的显著位置，还有一个现实考虑：让品牌信息与内容入口保持同一来源。用户从官网扫码进入的页面，标题、简介、更新时间与作者信息都经过校对，避免了二次传播中的错漏；同时入口页会保留返回官网的路径，形成可追溯的浏览动线。围绕这个动线，我们设计了公告条、专题状态、更新日志与口碑榜等模块，让「最新」不再是模糊的营销词，而是可检查的运营记录。未来，黑料社区将继续在内容审核、创作者培训与社区治理上投入，把官方网站打造成品牌故事的展示窗、企业动态的发布台与用户首选的深度内容社区。</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== 专题企划 ===== -->
+  <section class="hl-section hl-section--alt" id="hl-topics" aria-labelledby="hl-topics-title">
+    <div class="hl-container">
+      <div class="hl-section-head">
+        <span class="hl-eyebrow">Special Projects</span>
+        <h2 id="hl-topics-title">专题企划 · 黑料社区的纵深内容</h2>
+        <p class="hl-lead">围绕真实影像与行业观察，我们每季度推出一个重点专题，并持续更新内容条目。专题是品牌官网的重要组成部分，也是企业合作与创作者投稿的入口。</p>
+      </div>
+      <div class="hl-topics">
+        <article class="hl-topic">
+          <span class="hl-topic__status">更新中 · 第 2 季</span>
+          <h3>真实影像计划：把镜头交给普通人</h3>
+          <p class="hl-lead">面向非职业创作者征集日常记录短片，官方提供拍摄指引与剪辑建议。入选作品将在官网精品内容区展映。</p>
+          <ul>
+            <li>第 12 期《凌晨四点的早餐铺》已上线</li>
+            <li>第 13 期《楼道里的修鞋摊》征集中</li>
+            <li>官方高清素材库同步开放下载</li>
+          </ul>
+        </article>
+        <article class="hl-topic">
+          <span class="hl-topic__status">连载 · 第 8 期</span>
+          <h3>幕后访谈：内容创作者的真实一天</h3>
+          <p class="hl-lead">以访谈摘录形式呈现创作者的工作节奏、工具选择与创作焦虑，强调真实与陪伴。</p>
+          <ul>
+            <li>阿野的记录本：跟拍十年，我学会了等待</li>
+            <li>南屿影像：小团队如何完成长周期项目</li>
+            <li>老周的观察局：行业观察需要耐心</li>
+          </ul>
+        </article>
+        <article class="hl-topic">
+          <span class="hl-topic__status">已发布 · 可投票</span>
+          <h3>社区口碑榜：本周品质内容票选</h3>
+          <p class="hl-lead">由用户评分、完播率与互动质量共同生成，反映社区的真实偏好，是品牌口碑的公开记录。</p>
+          <ul>
+            <li>热度榜：街角的第二人生</li>
+            <li>新人榜：剪辑室的一盏灯</li>
+            <li>口碑榜：内容生态里的长期主义</li>
+          </ul>
+        </article>
+        <article class="hl-topic">
+          <span class="hl-topic__status">企划中 · 报名开放</span>
+          <h3>城市切片：十二座城市的十二种日常</h3>
+          <p class="hl-lead">联合多地创作者，以同一主题拍摄不同城市的生活切片，强调多元与包容的内容生态。</p>
+          <ul>
+            <li>报名通道已开放，接受团队提案</li>
+            <li>拍摄周期 4 周，成片 8—15 分钟</li>
+            <li>官方提供设备支持与版权登记协助</li>
+          </ul>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== 作者矩阵 ===== -->
+  <section class="hl-section" id="hl-authors" aria-labelledby="hl-authors-title">
+    <div class="hl-container">
+      <div class="hl-section-head">
+        <span class="hl-eyebrow">Creators</span>
+        <h2 id="hl-authors-title">创作者矩阵 · 黑料社区的专业力量</h2>
+        <p class="hl-lead">他们来自纪录片、新闻、影像技术与独立创作等不同背景，共同构成了平台的内容生态。点击作者卡片可查看简要档案。</p>
+      </div>
+      <div class="hl-authors" id="hlAuthorGrid">
+        <article class="hl-author" data-hl-author="阿野的记录本">
+          <div class="hl-author__avatar" style="background:linear-gradient(135deg,#7cffb2,#3fa877);">阿</div>
+          <div>
+            <div class="hl-author__head"><h3>阿野的记录本</h3><span class="hl-author__field">纪实 · 城市探索</span></div>
+            <div class="hl-author__nums"><span>作品 46</span><span>粉丝 12.8 万</span></div>
+            <p>独立纪录片创作者，长期跟拍城市街角的小店与普通人。擅长用长镜头与自然光保留现场感，作品多次入选平台精品内容。相信真实的细节比戏剧性的编排更有力量。</p>
+            <button class="hl-btn hl-btn--ghost hl-btn--sm" type="button" data-hl-author-btn>查看作者档案</button>
+          </div>
+        </article>
+        <article class="hl-author" data-hl-author="南屿影像">
+          <div class="hl-author__avatar" style="background:linear-gradient(135deg,#5ad0ff,#2f7fa8);">南</div>
+          <div>
+            <div class="hl-author__head"><h3>南屿影像</h3><span class="hl-author__field">创作幕后 · 影像技术</span></div>
+            <div class="hl-author__nums"><span>作品 33</span><span>粉丝 9.4 万</span></div>
+            <p>四人制作团队，专注幕后流程与影像技术分享。内容覆盖前期勘景、现场收音与后期调色，擅长把复杂流程讲得清楚。团队坚持正版素材与规范授权，希望为行业提供可复用的经验。</p>
+            <button class="hl-btn hl-btn--ghost hl-btn--sm" type="button" data-hl-author-btn>查看作者档案</button>
+          </div>
+        </article>
+        <article class="hl-author" data-hl-author="老周的观察局">
+          <div class="hl-author__avatar" style="background:linear-gradient(135deg,#ffb648,#a87322);">周</div>
+          <div>
+            <div class="hl-author__head"><h3>老周的观察局</h3><span class="hl-author__field">行业观察 · 趋势分析</span></div>
+            <div class="hl-author__nums"><span>作品 58</span><span>粉丝 16.2 万</span></div>
+            <p>前媒体从业者，现为独立内容观察者。关注视频平台的运营机制、创作者激励与社区治理，擅长用数据和案例拆解行业变化。文风克制，强调可验证的信息来源，是平台口碑榜的常驻观察员。</p>
+            <button class="hl-btn hl-btn--ghost hl-btn--sm" type="button" data-hl-author-btn>查看作者档案</button>
+          </div>
+        </article>
+        <article class="hl-author" data-hl-author="苏木与胶片">
+          <div class="hl-author__avatar" style="background:linear-gradient(135deg,#c99cff,#7a5ba8);">苏</div>
+          <div>
+            <div class="hl-author__head"><h3>苏木与胶片</h3><span class="hl-author__field">艺术美学 · 治愈影像</span></div>
+            <div class="hl-author__nums"><span>作品 27</span><span>粉丝 7.1 万</span></div>
+            <p>胶片摄影与短片创作者，关注日常中的微光与安静时刻。作品多为三五分钟的治愈短片，配乐与调色自成一格。她认为内容社区应该保有温柔的空间，让观众在快节奏中获得片刻停顿。</p>
+            <button class="hl-btn hl-btn--ghost hl-btn--sm" type="button" data-hl-author-btn>查看作者档案</button>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== 社区评价 / 评分摘要 ===== -->
+  <section class="hl-section hl-section--alt" id="hl-reviews" aria-labelledby="hl-reviews-title">
+    <div class="hl-container">
+      <div class="hl-section-head">
+        <span class="hl-eyebrow">Community Voice</span>
+        <h2 id="hl-reviews-title">社区口碑 · 用户这样说</h2>
+        <p class="hl-lead">以下短评来自真实用户反馈，涵盖内容质量、观看体验、创作者互动与社区氛围等维度，是平台持续运营的公开检验。</p>
+      </div>
+      <div class="hl-reviews">
+        <div class="hl-review-list">
+          <article class="hl-review">
+            <div class="hl-review__head"><span class="hl-review__avatar" style="background:#7cffb2;">林</span><span class="hl-review__name">林间散步</span><span class="hl-review__stars">★★★★★</span></div>
+            <p>第一次是从官网扫码进入的，页面很干净，没有乱跳的广告。看完了《街角的第二人生》，第二天又回来找作者的其他作品，这种能顺藤摸瓜的体验很舒服。</p>
+          </article>
+          <article class="hl-review">
+            <div class="hl-review__head"><span class="hl-review__avatar" style="background:#5ad0ff;">周</span><span class="hl-review__name">周末不加班</span><span class="hl-review__stars">★★★★☆</span></div>
+            <p>内容质量整体在线，尤其是幕后类的内容，能学到东西。个人希望专题更新再快一点，等待周期稍微有点长。</p>
+          </article>
+          <article class="hl-review">
+            <div class="hl-review__head"><span class="hl-review__avatar" style="background:#ffb648;">陈</span><span class="hl-review__name">陈小满</span><span class="hl-review__stars">★★★★★</span></div>
+            <p>投稿了一次真实影像计划，编辑给了很具体的修改意见，不是敷衍的模板回复。后来作品真的被推荐了，对普通创作者来说这种支持挺难得的。</p>
+          </article>
+          <article class="hl-review">
+            <div class="hl-review__head"><span class="hl-review__avatar" style="background:#c99cff;">禾</span><span class="hl-review__name">禾木的下午</span><span class="hl-review__stars">★★★★☆</span></div>
+            <p>喜欢这种深色界面，晚上看视频眼睛不累。播放清晰度稳定，作者信息也标得清楚。唯一建议是搜索框能支持更多关键词。</p>
+          </article>
+          <article class="hl-review">
+            <div class="hl-review__head"><span class="hl-review__avatar" style="background:#7cffb2;">K</span><span class="hl-review__name">K 先生不熬夜</span><span class="hl-review__stars">★★★★★</span></div>
+            <p>口碑榜挺有意思，能看到别人怎么评价，不是单纯按播放量排。作为企业合作方，我们也通过官网找到了合适的拍摄团队，沟通顺畅。</p>
+          </article>
+          <article class="hl-review">
+            <div class="hl-review__head"><span class="hl-review__avatar" style="background:#5ad0ff;">阿</span><span class="hl-review__name">阿茶要早睡</span><span class="hl-review__stars">★★★★☆</span></div>
+            <p>手机端导航一开始没找到，后来点了菜单才展开，希望更明显一些。内容本身很扎实，看得出是一个认真运营的社区。</p>
+          </article>
+        </div>
+        <aside class="hl-score" aria-label="社区评分摘要">
+          <span class="hl-eyebrow">Rating Summary</span>
+          <div class="hl-score__big">4.7 / 5</div>
+          <p class="hl-lead" style="margin-top:8px;">基于 2,418 份社区有效反馈</p>
+          <div class="hl-score__bars">
+            <div class="hl-score__bar">内容质量 <i style="--w:94%"></i></div>
+            <div class="hl-score__bar">观看体验 <i style="--w:91%"></i></div>
+            <div class="hl-score__bar">创作者互动 <i style="--w:88%"></i></div>
+            <div class="hl-score__bar">社区氛围 <i style="--w:96%"></i></div>
+            <div class="hl-score__bar">更新频率 <i style="--w:82%"></i></div>
+          </div>
+        </aside>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== 榜单 + 企业动态 ===== -->
+  <section class="hl-section" id="hl-rank" aria-labelledby="hl-rank-title">
+    <div class="hl-container">
+      <div class="hl-section-head">
+        <span class="hl-eyebrow">Ranking & Updates</span>
+        <h2 id="hl-rank-title">数据榜单与企业动态 · 官方发布</h2>
+        <p class="hl-lead">榜单由社区数据实时生成，企业动态记录平台在内容生态与社区建设上的持续投入。</p>
+      </div>
+      <div class="hl-rank">
+        <div class="hl-rank__col">
+          <h3>本周热度榜 <span class="hl-tag">实时</span></h3>
+          <ol>
+            <li><b>街角的第二人生</b><span>42.6万</span></li>
+            <li><b>小店里的十年</b><span>15.7万</span></li>
+            <li><b>内容生态里的长期主义</b><span>11.2万</span></li>
+            <li><b>深夜剪辑室的灯光</b><span>8.4万</span></li>
+            <li><b>楼道里的修鞋摊</b><span>6.9万</span></li>
+          </ol>
+        </div>
+        <div class="hl-rank__col">
+          <h3>新人榜 <span class="hl-tag hl-tag--blue">本周</span></h3>
+          <ol>
+            <li><b>苏木与胶片</b><span>+2.1万</span></li>
+            <li><b>北岸的猫</b><span>+1.4万</span></li>
+            <li><b>一碗汤的记录</b><span>+1.1万</span></li>
+            <li><b>夜行地图</b><span>+9,300</span></li>
+            <li><b>小院光线</b><span>+7,600</span></li>
+          </ol>
+        </div>
+        <div class="hl-rank__col">
+          <h3>口碑榜 <span class="hl-tag hl-tag--warm">月榜</span></h3>
+          <ol>
+            <li><b>幕后访谈：阿野的记录本</b><span>4.9</span></li>
+            <li><b>内容生态里的长期主义</b><span>4.8</span></li>
+            <li><b>街角的第二人生</b><span>4.8</span></li>
+            <li><b>胶片里的夏天</b><span>4.7</span></li>
+            <li><b>城市切片·预告</b><span>4.6</span></li>
+          </ol>
+        </div>
+      </div>
+
+      <div class="hl-news" style="margin-top:40px;">
+        <div class="hl-news__item">
+          <div class="hl-news__date">2026.11.20</div>
+          <div>
+            <h3>官方发布：真实影像计划第二季报名通道开启</h3>
+            <p>面向所有非职业创作者开放，提交 3 分钟样片与选题提案即可参与。入选者将获得制作补贴与官方展映位。</p>
+          </div>
+        </div>
+        <div class="hl-news__item">
+          <div class="hl-news__date">2026.11.15</div>
+          <div>
+            <h3>内容生态升级：新增创作者版权登记协助服务</h3>
+            <p>平台与版权服务机构合作，为合作创作者提供作品登记指引，进一步保障正版内容与创作者权益。</p>
+          </div>
+        </div>
+        <div class="hl-news__item">
+          <div class="hl-news__date">2026.11.08</div>
+          <div>
+            <h3>社区治理公告：口碑榜评分规则透明化</h3>
+            <p>评分构成公开为内容质量、观看体验与社区互动三项，用户可在专题页查看计算说明，欢迎监督与反馈。</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FAQ + 合作 ===== -->
+  <section class="hl-section hl-section--alt" id="hl-faq" aria-labelledby="hl-faq-title">
+    <div class="hl-container">
+      <div class="hl-section-head">
+        <span class="hl-eyebrow">Help & Partners</span>
+        <h2 id="hl-faq-title">帮助中心与合作伙伴 · 持续运营的保障</h2>
+        <p class="hl-lead">关于入口、投稿、版权与合作的常见问题，以及与我们共同建设内容生态的伙伴。</p>
+      </div>
+      <div class="hl-faq">
+        <details open>
+          <summary>如何通过最新二维码进入黑料社区？</summary>
+          <p>在官方网站首页的首屏按钮与专题页均可找到官方扫码入口。扫码后进入的是平台维护的内容页，页面内保留返回官网的路径。若入口页提示版本更新，请以官网公告条的最新信息为准。</p>
+        </details>
+        <details>
+          <summary>平台内容是否都可以直接下载？</summary>
+          <p>官方高清素材库中的素材可用于个人学习与创作参考，转载与商用需遵循素材页标注的授权范围。原创作品的版权归创作者所有，平台提供登记协助但不代为转让。</p>
+        </details>
+        <details>
+          <summary>普通用户如何参与专题投稿？</summary>
+          <p>专题页内设有投稿入口，填写基本信息并提交作品链接或样片即可。编辑团队通常在 7 个工作日内给出反馈，入选作品会安排排期并通知作者。</p>
+        </details>
+        <details>
+          <summary>口碑榜的排名依据是什么？</summary>
+          <p>口碑榜综合内容质量评分、观看完成度与社区互动质量计算，数据按周或月更新。平台保留对异常数据的排查权，并在企业动态中公示规则调整。</p>
+        </details>
+        <details>
+          <summary>企业如何与黑料社区开展内容合作？</summary>
+          <p>可通过官网的合作联系入口提交需求，说明内容方向、预算范围与时间计划。平台会根据选题匹配创作者团队，并提供制作与发布的流程建议。</p>
+        </details>
+        <details>
+          <summary>遇到内容争议或侵权问题怎么办？</summary>
+          <p>页面内提供反馈与举报入口，提交相关证据与链接后，平台会按流程核查。涉及版权的争议将优先处理，并保留与创作者、权利方沟通的记录。</p>
+        </details>
+      </div>
+
+      <div class="hl-partners" style="margin-top:38px;">
+        <div class="hl-partner">光屿影像工作室</div>
+        <div class="hl-partner">南方内容实验室</div>
+        <div class="hl-partner">城市切片计划</div>
+        <div class="hl-partner">真实影像联盟</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== 投稿 / 联系 CTA ===== -->
+  <section class="hl-section" aria-labelledby="hl-cta-title">
+    <div class="hl-container">
+      <div class="hl-cta">
+        <div>
+          <span class="hl-eyebrow">Join the Community</span>
+          <h2 id="hl-cta-title">把你的真实故事，带进黑料社区</h2>
+          <p>无论你是拍摄者、观察者还是普通记录者，都欢迎通过官方入口投递作品。我们提供选题建议、剪辑思路与版权登记协助，让好内容被更多人看见。</p>
+        </div>
+        <div class="hl-cta__actions">
+          <button class="hl-btn" type="button" data-hl-action="submit">我要投稿</button>
+          <button class="hl-btn hl-btn--ghost" type="button" data-hl-action="share">分享本页</button>
+          <button class="hl-btn hl-btn--ghost" type="button" data-hl-action="scan">扫码进入</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- ===== 页脚 ===== -->
+<footer class="hl-footer">
+  <div class="hl-container">
+    <div class="hl-footer__grid">
+      <div>
+        <a class="hl-brand" href="#hl-top" style="margin-bottom:14px;">
+          <span class="hl-brand__mark">黑</span>
+          <span>黑料社区</span>
+        </a>
+        <p style="max-width:30em;">黑料社区官方网站，专注真实影像与深度内容，持续运营高品质视频内容生态，为创作者、企业与用户提供值得信赖的交流平台。</p>
+        <p style="font-size:.78rem;color:#6f7784;">官方网站 · 官方发布 · 正版高清 · 企业品牌</p>
+      </div>
+      <div>
+        <h3>浏览</h3>
+        <a href="#hl-videos">精品内容</a>
+        <a href="#hl-topics">专题企划</a>
+        <a href="#hl-authors">创作者矩阵</a>
+        <a href="#hl-rank">数据榜单</a>
+      </div>
+      <div>
+        <h3>社区</h3>
+        <a href="#hl-about">企业简介</a>
+        <a href="#hl-reviews">社区口碑</a>
+        <a href="#hl-faq">帮助中心</a>
+        <a href="#hl-top">回到首页</a>
+      </div>
+      <div>
+        <h3>合作与反馈</h3>
+        <a href="#hl-faq">企业合作</a>
+        <a href="#hl-faq">版权与举报</a>
+        <a href="#hl-cta-title">投稿入口</a>
+        <button class="hl-icon-btn" type="button" data-hl-action="feedback" style="margin-top:6px;">意见反馈</button>
+      </div>
+    </div>
+    <div class="hl-footer__bottom">
+      <span>© 2026 黑料社区 版权所有 · 官方网站 · 持续运营中</span>
+      <span>内容及商标受法律保护 · 备案号：示例备 2026-00188 号</span>
+    </div>
+  </div>
+</footer>
+
+<button class="hl-back-top" id="hlBackTop" type="button" aria-label="回到顶部">↑</button>
+<div class="hl-toast" id="hlToast" role="status" aria-live="polite"></div>
+
+<script>
+(function(){
+  "use strict";
+
+  var toastEl = document.getElementById("hlToast");
+  var toastTimer = null;
+  function showToast(msg){
+    if(!toastEl){return;}
+    toastEl.textContent = msg;
+    toastEl.classList.add("is-show");
+    clearTimeout(toastTimer);
+    toastTimer = setTimeout(function(){
+      toastEl.classList.remove("is-show");
+    }, 2200);
+  }
+
+  /* 移动端导航折叠 */
+  var menuToggle = document.getElementById("hlMenuToggle");
+  var nav = document.getElementById("hlNav");
+  if(menuToggle && nav){
+    menuToggle.addEventListener("click", function(){
+      var open = nav.classList.toggle("is-open");
+      menuToggle.setAttribute("aria-expanded", open ? "true" : "false");
+      menuToggle.textContent = open ? "关闭" : "菜单";
+    });
+    nav.querySelectorAll("a").forEach(function(a){
+      a.addEventListener("click", function(){
+        if(nav.classList.contains("is-open")){
+          nav.classList.remove("is-open");
+          menuToggle.setAttribute("aria-expanded","false");
+          menuToggle.textContent = "菜单";
+        }
+      });
+    });
+  }
+
+  /* 搜索反馈 */
+  var searchInput = document.getElementById("hlSearchInput");
+  var searchBtn = document.getElementById("hlSearchBtn");
+  var searchFeedback = document.getElementById("hlSearchFeedback");
+  var videoList = document.getElementById("hlVideoList");
+  function runSearch(){
+    var q = (searchInput && searchInput.value || "").trim();
+    if(!q){
+      if(searchFeedback){searchFeedback.textContent = "请输入关键词，例如：访谈、幕后、城市、口碑。";}
+      return;
+    }
+    var text = document.body.innerText || "";
+    var hit = text.indexOf(q) !== -1;
+    if(searchFeedback){
+      searchFeedback.textContent = hit
+        ? "已找到与「" + q + "」相关的内容，正在定位到精品内容区。"
+        : "暂未找到「" + q + "」的直接匹配，可尝试「访谈」「幕后」「社区」等关键词。";
+    }
+    if(hit && videoList){
+      videoList.scrollIntoView({behavior:"smooth", block:"start"});
+    }
+  }
+  if(searchBtn){ searchBtn.addEventListener("click", runSearch); }
+  if(searchInput){
+    searchInput.addEventListener("keydown", function(e){
+      if(e.key === "Enter"){
+        e.preventDefault();
+        runSearch();
+      }
+    });
+  }
+
+  /* 点赞 */
+  document.querySelectorAll("[data-hl-like]").forEach(function(btn){
+    btn.addEventListener("click", function(){
+      var b = btn.querySelector("b");
+      var liked = btn.classList.toggle("is-liked");
+      btn.setAttribute("aria-pressed", liked ? "true" : "false");
+      if(b){
+        var n = parseInt(b.textContent.replace(/[^\d]/g,""), 10) || 0;
+        n += liked ? 1 : -1;
+        if(n < 0){ n = 0; }
+        b.textContent = n;
+      }
+      showToast(liked ? "已点赞，感谢你的支持" : "已取消点赞");
+    });
+  });
+
+  /* 收藏 */
+  document.querySelectorAll("[data-hl-save]").forEach(function(btn){
+    btn.addEventListener("click", function(){
+      var saved = btn.classList.toggle("is-saved");
+      btn.setAttribute("aria-pressed", saved ? "true" : "false");
+      btn.textContent = saved ? "已收藏" : "收藏";
+      showToast(saved ? "已加入收藏，可在个人中心查看" : "已取消收藏");
+    });
+  });
+
+  /* 作者弹窗（用确认式提示替代） */
+  document.querySelectorAll("[data-hl-author-btn]").forEach(function(btn){
+    btn.addEventListener("click", function(e){
+      e.stopPropagation();
+      var card = btn.closest("[data-hl-author]");
+      var name = card ? card.getAttribute("data-hl-author") : "创作者";
+      showToast("已打开「" + name + "」的公开档案，可在创作者矩阵中继续浏览。");
+      if(card){
+        card.scrollIntoView({behavior:"smooth", block:"center"});
+      }
+    });
+  });
+
+  /* 行动按钮：扫码 / 投稿 / 分享 / 反馈 */
+  document.querySelectorAll("[data-hl-action]").forEach(function(btn){
+    btn.addEventListener("click", function(){
+      var action = btn.getAttribute("data-hl-action");
+      if(action === "scan"){
+        showToast("请使用手机扫描官网首屏的官方二维码，即可进入最新内容页。");
+      }else if(action === "submit"){
+        showToast("投稿入口已打开：请准备 3 分钟样片与选题说明，编辑将在 7 个工作日内反馈。");
+      }else if(action === "share"){
+        sharePage();
+      }else if(action === "feedback"){
+        showToast("反馈通道已开启：请描述问题并附上内容链接，我们会尽快核查。");
+      }
+    });
+  });
+
+  function sharePage(){
+    var okMsg = "链接已复制，可粘贴分享给朋友。";
+    if(navigator.clipboard && navigator.clipboard.writeText){
+      navigator.clipboard.writeText(window.location.href).then(function(){
+        showToast(okMsg);
+      }).catch(function(){
+        fallbackShare();
+      });
+    }else{
+      fallbackShare();
+    }
+  }
+  function fallbackShare(){
+    try{
+      var input = document.createElement("textarea");
+      input.value = window.location.href;
+      input.style.position = "fixed";
+      input.style.opacity = "0";
+      document.body.appendChild(input);
+      input.select();
+      document.execCommand("copy");
+      document.body.removeChild(input);
+      showToast("链接已复制，可粘贴分享给朋友。");
+    }catch(err){
+      showToast("分享功能暂不可用，请手动复制页面地址。");
+    }
+  }
+
+  /* 回到顶部 */
+  var backTop = document.getElementById("hlBackTop");
+  window.addEventListener("scroll", function(){
+    if(!backTop){return;}
+    if(window.scrollY > 560){
+      backTop.classList.add("is-show");
+    }else{
+      backTop.classList.remove("is-show");
+    }
+  }, {passive:true});
+  if(backTop){
+    backTop.addEventListener("click", function(){
+      window.scrollTo({top:0, behavior:"smooth"});
+    });
+  }
+
+  /* 数字滚动（轻量实现） */
+  var counted = false;
+  function countUp(){
+    if(counted){return;}
+    counted = true;
+    document.querySelectorAll("[data-hl-count]").forEach(function(el){
+      var target = parseInt(el.getAttribute("data-hl-count"), 10);
+      if(isNaN(target)){return;}
+      var suffix = el.textContent.indexOf("%") !== -1 ? "%" : "+";
+      var start = Math.floor(target * 0.72);
+      var step = Math.max(1, Math.floor((target - start) / 34));
+      var current = start;
+      var timer = setInterval(function(){
+        current += step;
+        if(current >= target){
+          current = target;
+          clearInterval(timer);
+        }
+        el.textContent = current + suffix;
+      }, 28);
+    });
+  }
+  if("IntersectionObserver" in window){
+    var stats = document.querySelector(".hl-stats");
+    if(stats){
+      var io = new IntersectionObserver(function(entries){
+        entries.forEach(function(entry){
+          if(entry.isIntersecting){
+            countUp();
+            io.disconnect();
+          }
+        });
+      }, {threshold:0.35});
+      io.observe(stats);
+    }
+  }else{
+    countUp();
+  }
+
+  /* 初始提示 */
+  window.addEventListener("load", function(){
+    showToast("欢迎访问黑料社区官方网站，当前公告条可查看最新官方动态。");
+  });
+})();
+</script>
+</body>
+                  </html>
